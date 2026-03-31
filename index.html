@@ -5,25 +5,25 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Цунами</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
 
 <style>
 body {
     margin: 0;
     font-family: 'Rajdhani', sans-serif;
-    background: #000;
-    color: #e5e5e5;
+    background: #111;
+    color: #ffffff;
     scroll-behavior: smooth;
 }
 
 section {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
     position: relative;
-    border-bottom: 1px solid #111;
+    border-bottom: 1px solid #222;
 }
 
 .container {
@@ -38,17 +38,16 @@ section {
 }
 
 .text h1 {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 34px;
+    font-size: 32px;
     margin-bottom: 20px;
-    color: #00eaff;
-    letter-spacing: 2px;
+    color: #cccccc;
+    letter-spacing: 1px;
 }
 
 .text p {
     font-size: 17px;
     line-height: 1.6;
-    color: #cfcfcf;
+    color: #e5e5e5;
     margin-bottom: 15px;
 }
 
@@ -58,22 +57,17 @@ section {
 
 .image img {
     width: 100%;
-    border-radius: 8px;
-    border: 1px solid #222;
+    border-radius: 6px;
+    border: 1px solid #333;
 }
 
 /* стрелка */
 .arrow {
     position: absolute;
-    bottom: 25px;
+    bottom: 20px;
     font-size: 26px;
     text-decoration: none;
-    color: #00eaff;
-    transition: 0.3s;
-}
-
-.arrow:hover {
-    transform: translateY(5px);
+    color: #888;
 }
 
 /* мобильная версия */
@@ -84,17 +78,11 @@ section {
     }
 
     section {
-        height: auto;
         padding-bottom: 80px;
-    }
-
-    .text h1 {
-        font-size: 26px;
     }
 
     .arrow {
         position: static;
-        display: block;
         margin-top: 20px;
     }
 }
@@ -109,13 +97,10 @@ section {
 <div class="text">
 <h1>ЧТО ТАКОЕ ЦУНАМИ</h1>
 <p>
-Цунами — это огромные морские волны, возникающие из-за подводных землетрясений или извержений вулканов. Они могут распространяться на тысячи километров и двигаться с высокой скоростью. В открытом океане такие волны почти незаметны.
+Цунами — это огромные морские волны, возникающие из-за подводных землетрясений или извержений вулканов. Они распространяются на большие расстояния и могут двигаться с высокой скоростью. В открытом океане такие волны почти незаметны.
 </p>
 <p>
 При приближении к берегу их высота резко увеличивается. Это приводит к разрушениям и затоплению территорий. Цунами считается одним из самых опасных природных явлений.
-</p>
-<p>
-Также цунами влияет не только на океан, но и на реки, озёра и прибрежные водоёмы. Волны могут заходить далеко вглубь суши по руслам рек. Это вызывает затопления и изменение природных условий.
 </p>
 </div>
 <div class="image">
@@ -163,16 +148,35 @@ section {
 <a href="#slide4" class="arrow">↓</a>
 </section>
 
-<!-- Слайд 4 -->
+<!-- Слайд 4 (новый про влияние) -->
 <section id="slide4">
+<div class="container">
+<div class="text">
+<h1>ВЛИЯНИЕ НА РЕКИ И ОЗЁРА</h1>
+<p>
+Цунами влияет не только на океаны, но и на внутренние водоёмы. Волны могут заходить в устья рек и продвигаться далеко вглубь суши. Это приводит к затоплениям и разрушению берегов.
+</p>
+<p>
+Также меняется уровень воды и нарушается экосистема. Вода может становиться солёной, что вредно для растений и животных. Это оказывает долгосрочное влияние на природу.
+</p>
+</div>
+<div class="image">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0uO8VkmP6b4q9riDLKB8czsvRotDCq3066H8PEhlOy-vTegY1I8g99adI&s=10.jpg">
+</div>
+</div>
+<a href="#slide5" class="arrow">↓</a>
+</section>
+
+<!-- Слайд 5 -->
+<section id="slide5">
 <div class="container">
 <div class="text">
 <h1>ЗАКЛЮЧЕНИЕ</h1>
 <p>
-Цунами невозможно полностью предотвратить, но можно уменьшить последствия. Современные системы предупреждения позволяют заранее информировать людей. Это значительно снижает количество жертв.
+Цунами невозможно полностью предотвратить, но можно уменьшить последствия. Современные системы предупреждения позволяют заранее информировать людей. Это снижает количество жертв.
 </p>
 <p>
-Важно знать правила поведения и сохранять спокойствие. Подготовка играет ключевую роль в безопасности. Чем больше знаний, тем выше шанс выживания.
+Важно знать правила поведения и сохранять спокойствие. Подготовка играет ключевую роль. Чем больше знаний, тем выше безопасность.
 </p>
 </div>
 <div class="image">
