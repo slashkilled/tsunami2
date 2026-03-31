@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Цунами</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Rajdhani', sans-serif;
+    background: #000;
+    color: #e5e5e5;
+    scroll-behavior: smooth;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    border-bottom: 1px solid #111;
+}
+
+.container {
+    display: flex;
+    max-width: 1100px;
+    gap: 40px;
+    align-items: center;
+}
+
+.text {
+    flex: 1;
+}
+
+.text h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: #00eaff;
+    letter-spacing: 2px;
+}
+
+.text p {
+    font-size: 17px;
+    line-height: 1.6;
+    color: #cfcfcf;
+    margin-bottom: 15px;
+}
+
+.image {
+    flex: 1;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #222;
+}
+
+/* стрелка */
+.arrow {
+    position: absolute;
+    bottom: 25px;
+    font-size: 26px;
+    text-decoration: none;
+    color: #00eaff;
+    transition: 0.3s;
+}
+
+.arrow:hover {
+    transform: translateY(5px);
+}
+
+/* мобильная версия */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    section {
+        height: auto;
+        padding-bottom: 80px;
+    }
+
+    .text h1 {
+        font-size: 26px;
+    }
+
+    .arrow {
+        position: static;
+        display: block;
+        margin-top: 20px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- Слайд 1 -->
+<section id="slide1">
+<div class="container">
+<div class="text">
+<h1>ЧТО ТАКОЕ ЦУНАМИ</h1>
+<p>
+Цунами — это огромные морские волны, возникающие из-за подводных землетрясений или извержений вулканов. Они могут распространяться на тысячи километров и двигаться с высокой скоростью. В открытом океане такие волны почти незаметны.
+</p>
+<p>
+При приближении к берегу их высота резко увеличивается. Это приводит к разрушениям и затоплению территорий. Цунами считается одним из самых опасных природных явлений.
+</p>
+<p>
+Также цунами влияет не только на океан, но и на реки, озёра и прибрежные водоёмы. Волны могут заходить далеко вглубь суши по руслам рек. Это вызывает затопления и изменение природных условий.
+</p>
+</div>
+<div class="image">
+<img src="https://images.oxu.az/2024/04/18/23/38/54/786ce464-c104-4617-bd50-a580de9d64ae/Tcunami_2004:1200.jpg">
+</div>
+</div>
+<a href="#slide2" class="arrow">↓</a>
+</section>
+
+<!-- Слайд 2 -->
+<section id="slide2">
+<div class="container">
+<div class="text">
+<h1>ГДЕ И КАК ВОЗНИКАЮТ</h1>
+<p>
+Цунами чаще всего возникают в районах с высокой сейсмической активностью. Особенно это характерно для Тихого океана. Основной причиной является резкое смещение морского дна.
+</p>
+<p>
+Когда плиты движутся, вода приходит в движение и образует мощные волны. Иногда причиной могут быть подводные оползни. Такие явления происходят редко, но имеют серьёзные последствия.
+</p>
+</div>
+<div class="image">
+<img src="https://cdn1.rzn.info/data/image/news/2015/09/126555_55fa604ac7ea4_compressed.jpg">
+</div>
+</div>
+<a href="#slide3" class="arrow">↓</a>
+</section>
+
+<!-- Слайд 3 -->
+<section id="slide3">
+<div class="container">
+<div class="text">
+<h1>МЕРЫ БЕЗОПАСНОСТИ</h1>
+<p>
+При угрозе цунами необходимо срочно покинуть прибрежную зону. Лучше всего подняться на возвышенность или уйти как можно дальше от воды. Важно следовать указаниям служб спасения.
+</p>
+<p>
+Нельзя возвращаться к берегу после первой волны. Нужно заранее знать маршруты эвакуации. Подготовка и быстрые действия помогают сохранить жизнь.
+</p>
+</div>
+<div class="image">
+<img src="https://www.electronic-sirens.com/ru/wp-content/uploads/sites/3/2020/12/%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0-%D0%BF%D1%80%D0%B5%D0%B4%D1%83%D0%BF%D1%80%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BE-%D1%86%D1%83%D0%BD%D0%B0%D0%BC%D0%B8.jpg">
+</div>
+</div>
+<a href="#slide4" class="arrow">↓</a>
+</section>
+
+<!-- Слайд 4 -->
+<section id="slide4">
+<div class="container">
+<div class="text">
+<h1>ЗАКЛЮЧЕНИЕ</h1>
+<p>
+Цунами невозможно полностью предотвратить, но можно уменьшить последствия. Современные системы предупреждения позволяют заранее информировать людей. Это значительно снижает количество жертв.
+</p>
+<p>
+Важно знать правила поведения и сохранять спокойствие. Подготовка играет ключевую роль в безопасности. Чем больше знаний, тем выше шанс выживания.
+</p>
+</div>
+<div class="image">
+<img src="https://static.dw.com/image/17406922_605.jpg">
+</div>
+</div>
+</section>
+
+</body>
+</html>
